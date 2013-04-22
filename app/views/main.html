@@ -1,8 +1,7 @@
 <a ng-click="backSlide()">back</a>
 {{getCurrentSlide()}}
 <a ng-click="forwardSlide()">forward</a>
-
-<div class="hero-unit {{showOrHide($index)}}" ng-repeat="slide in slides">
+<div class="centered hero-unit {{showOrHide($index)}}" ng-repeat="slide in slides">
     <h1>{{slide.slideTitle}}</h1>
 
     <p>{{slide.content}}</p>
@@ -11,8 +10,8 @@
 
         <h3>{{question.prompt}}</h3>
         <div ng-hide="gotAnswerCorrect($index)">
-        <ul>
-            <li ng-repeat="choice in question.choices" ng-click="userPicks(question, choice)">{{choice}}</li>
+        <ul class="nav nav-tabs nav-stacked">
+            <li ng-repeat="choice in question.choices"><a href="#" ng-click="userPicks(question, choice)">{{choice}}</a></li>
         </ul>
         </div>
         <div ng-show="gotAnswerCorrect($index)" class="alert alert-success"></div>

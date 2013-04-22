@@ -62,6 +62,7 @@ angular.module('mrpigsApp')
         }
 
         $scope.userPicks = function (question, choice) {
+            console.log("userPicks( question: '" + question + "' choice: '" + choice + "'");
             if(choice == question.correctAnswer) correctAnswers[currentSlideIndex][currentAnswerIndex] = 1; //correct > 1
             else correctAnswers[currentSlideIndex][currentAnswerIndex] = 1; //wrong > 2
         }
