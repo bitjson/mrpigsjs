@@ -6,12 +6,16 @@
     <h1>{{slide.slideTitle}}</h1>
 
     <p>{{slide.content}}</p>
-
+    <div> </div>
     <div ng-repeat="question in slide.questions">
-        <h2>Test your understanding:</h2>
-        <p>{{question.prompt}}</p>
+
+        <h3>{{question.prompt}}</h3>
+        <div ng-hide="gotAnswerCorrect($index)">
         <ul>
-            <li ng-repeat="choice in question.choices">{{choice}}</li>
+            <li ng-repeat="choice in question.choices" ng-click="userPicks(question, choice)">{{choice}}</li>
         </ul>
+        </div>
+        <div ng-show="gotAnswerCorrect($index)" class="alert alert-success"></div>
+        <div ng-show="gotAnswerWrong($index)" class="alert alert-error"></div>
     </div>
 </div>

@@ -8,8 +8,8 @@
     <ignored path="mrpigsjs.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="38e0998b-569c-41c3-afa2-11ea8a39a941" time="1366605556572" ignored="false" />
-    <file path="/main.html" changelist="38e0998b-569c-41c3-afa2-11ea8a39a941" time="1366614042466" ignored="false" />
-    <file path="/main.js" changelist="38e0998b-569c-41c3-afa2-11ea8a39a941" time="1366613930043" ignored="false" />
+    <file path="/main.html" changelist="38e0998b-569c-41c3-afa2-11ea8a39a941" time="1366616769215" ignored="false" />
+    <file path="/main.js" changelist="38e0998b-569c-41c3-afa2-11ea8a39a941" time="1366616155125" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +29,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="37" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.0">
+            <state line="62" column="0" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.50489235">
               <folding>
-                <element signature="e#267#295#0" expanded="false" />
+                <element signature="e#406#434#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="53" selection-end="53" vertical-scroll-proportion="0.029087262">
+            <state line="11" column="34" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.394737">
               <folding />
             </state>
           </provider>
@@ -393,19 +393,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="37" selection-start="1961" selection-end="1961" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#267#295#0" expanded="false" />
-          </folding>
+        <state line="11" column="34" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.394737">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="53" selection-end="53" vertical-scroll-proportion="0.029087262">
-          <folding />
+        <state line="62" column="0" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.50489235">
+          <folding>
+            <element signature="e#406#434#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,10 +3,14 @@
 angular.module('mrpigsApp')
     .controller('MainCtrl', function ($scope, $http) {
 
+        var correctAnswers = []; //2D array || 0 (undefined) = answer not guessed, 1 = correct, 2 = false
+        var currentSlideIndex = 0;
+        var currentAnswerIndex = 0;
+
         //get course data
         $http.get('courses/econ101.json').then(function (res) {
             $scope.slides = res.data;
-            console.log($scope.slides);
+
 //parser for first JSON file
 //        $scope.slides = [];
 //        var unparsedSlides = [];
@@ -42,7 +46,6 @@ angular.module('mrpigsApp')
         });
 
 
-        var currentSlideIndex = 0;
         $scope.forwardSlide = function () {
             return currentSlideIndex++;
         }
@@ -56,6 +59,21 @@ angular.module('mrpigsApp')
         $scope.showOrHide = function ($index) {
             if ($index == currentSlideIndex) return "visible";
             if ($index !== currentSlideIndex) return "hide";
+        }
+
+        $scope.userPicks = function (question, choice) {
+            if(choice == question.correctAnswer) correctAnswers[currentSlideIndex][currentAnswerIndex] = 1; //correct > 1
+            else correctAnswers[currentSlideIndex][currentAnswerIndex] = 1; //wrong > 2
+        }
+
+        $scope.gotAnswerCorrect = function (answerIndex) {
+            if(correctAnswers[currentSlideIndex][answerIndex] == 1) return true;
+            return false;
+        }
+
+        $scope.gotAnswerWrong = function (answerIndex) {
+            if(correctAnswers[currentSlideIndex][answerIndex] == 2) return true;
+            return false;
         }
 
         $scope.awesomeThings = ['HTML5 Boilerplate', 'AngularJS', 'Karma' ];
