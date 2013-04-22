@@ -1,12 +1,12 @@
 'use strict';
 
 angular.module('mrpigsApp')
-  .controller('MainCtrl', function ($scope, $http) {
+    .controller('MainCtrl', function ($scope, $http) {
 
-    //get course data
-    $http.get('courses/econ101.json').then(function(res){
-       $scope.slides = res.data;
-        console.log($scope.slides);
+        //get course data
+        $http.get('courses/econ101.json').then(function (res) {
+            $scope.slides = res.data;
+            console.log($scope.slides);
 //parser for first JSON file
 //        $scope.slides = [];
 //        var unparsedSlides = [];
@@ -39,19 +39,26 @@ angular.module('mrpigsApp')
 //            }
 //            $scope.slides.push(slide);
 //        }
+        });
+
+
+        var currentSlideIndex = 0;
+        $scope.forwardSlide = function () {
+            return currentSlideIndex++;
+        }
+        $scope.backSlide = function () {
+            return currentSlideIndex--;
+        }
+        $scope.getCurrentSlide = function () {
+            return currentSlideIndex + 1;
+        }
+
+        $scope.showOrHide = function ($index) {
+            if ($index == currentSlideIndex) return "visible";
+            if ($index !== currentSlideIndex) return "hide";
+        }
+
+        $scope.awesomeThings = ['HTML5 Boilerplate', 'AngularJS', 'Karma' ];
+
+
     });
-
-    //init
-    var currentSlideIndex = 0;
-
-
-
-    $scope.getCurrentSlide = function(){ return currentSlideIndex + 1; }
-
-
-    $scope.awesomeThings = ['HTML5 Boilerplate', 'AngularJS', 'Karma' ];
-
-
-
-
-  });

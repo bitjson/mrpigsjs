@@ -1,4 +1,8 @@
-<div class="hero-unit" ng-repeat="slide in slides">
+<a ng-click="backSlide()">back</a>
+{{getCurrentSlide()}}
+<a ng-click="forwardSlide()">forward</a>
+
+<div class="hero-unit {{showOrHide($index)}}" ng-repeat="slide in slides">
     <h1>{{slide.slideTitle}}</h1>
 
     <p>{{slide.content}}</p>
