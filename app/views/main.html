@@ -1,9 +1,13 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
+<div class="hero-unit" ng-repeat="slide in slides">
+    <h1>{{slide.slideTitle}}</h1>
+
+    <p>{{slide.content}}</p>
+
+    <div ng-repeat="question in slide.questions">
+        <h2>Test your understanding:</h2>
+        <p>{{question.prompt}}</p>
+        <ul>
+            <li ng-repeat="choice in question.choices">{{choice}}</li>
+        </ul>
+    </div>
 </div>
