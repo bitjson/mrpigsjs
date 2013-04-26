@@ -1,2 +1,53 @@
 @import "compass_twitter_bootstrap";
 
+.highlighted-choice{
+  background-color: #b3b3b3;
+}
+
+.tag {
+  font-size: 48px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+body {
+  background: url('../images/subtle_stripes_pink2.png') #d02e5d repeat;
+}
+
+h1, h2 {
+  font-family: 'Changa One';
+}
+
+#logo{
+  margin: 0 auto;
+  display: block;
+}
+
+.floater{
+  background-color: #fffefe;
+  padding: 60px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.navbar .brand {
+  padding: 5px 20px 5px;
+}
+
+.mrpigs-footer{
+  color: rgba(255,255,255,.79);
+  text-align: center;
+  display: block;
+
+  a {
+    color: rgba(255,255,255,.79);
+    font-weight: bold;
+  }
+
+}

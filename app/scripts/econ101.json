@@ -1,0 +1,320 @@
+[
+    {
+        "slideTitle": "Introduction",
+        "content": "Every year the world consumes more and more oil. The question is, why haven’t we run out yet? Surely we must be getting close. What do you think? ",
+        "questions": [
+            {
+                "prompt": "How have proven oil reserves changed since 1990?",
+                "choices": [
+                    "More",
+                    "Less",
+                    "Same Amount"
+                ],
+                "correctAnswer": "More",
+                "explanation": "More is correct! Let's explain why."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Oil Reserves: Then and Now",
+        "content": "Despite increasing global consumption, the world’s proven oil reserves have grown from 1 trillion barrels in 1990 to 1.7 trillion barrels in 2011. As the price of oil rises, there's more incentive for producers to go out and find more."
+    },
+    {
+        "slideTitle": "Oil Price and Consumer Demand",
+        "content": "Have you ever wondered how gas prices can be $2 one week, and then jump to $4 a couple weeks later? What sets these prices? Let’s look at the historical data. As you can see, the price of gasoline peaked at $4.10 in July 2008 and then crashed to under $2.00 in January 2009.",
+        "questions": [
+            {
+                "prompt": "Why did this happen?",
+                "choices": [
+                    "More oil was available.",
+                    "Consumers bought less gasoline.",
+                    "Government mandated lower gas prices."
+                ],
+                "correctAnswer": "Consumers bought less gasoline.",
+                "explanation": "Consumers did buy less gasoline! The graph below shows total number of miles driven on all US roads. Notice that the this number declines in 2008. Since consumers were driving less, they demanded less gas, which drove prices down."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Demand",
+        "content": "Definition of Demand - Desire and ability of consumers to purchase a product/service. Related to demand is quantity demanded. Definition of Quantity Demanded - The amount of an item people demand at a certain price. The number of products people want to buy changes with the selling price. This chart is called a demand schedule. It shows the relation between selling price and quantity demanded.",
+        "questions": [
+            {
+                "prompt": "As a product’s price increases, what happens to quantity demanded?",
+                "choices": [
+                    "Increases",
+                    "Decreases",
+                    "Stays the same"
+                ],
+                "correctAnswer": "Decreases",
+                "explanation": "Correct! This relationship is foundational to economics and is called the law of demand. Continue on to learn more. "
+            }
+        ]
+    },
+    {
+        "slideTitle": "Law of Demand",
+        "content": "Law of Demand - Quantity demand rises as prices fall and falls as prices rise, all else equal. “All else equal,” what does that mean? When we examine a market, evaluating the impact of one change is much easier if that is the only change made. “All else equal” assumes only one changes is made, which simplifies our model. Using the law of demand, we can construct a demand graph. Price is on the y-axis and quantity demanded is on the x-axis. Notice that the inverse relationship between price and quantity demanded gives the graph a negative slope."
+    },
+    {
+        "slideTitle": "Interactivikitty",
+        "content": "Please enjoy this kittentastic placeholder while we develop this interactive activity. <br><img src='http://placekitten.com/820/300' />"
+    },
+    {
+        "slideTitle": "Determinants of demand",
+        "content": "We’ve seen that changing the price can increase the quantity demanded of a product, but what if we want to change the quantity demanded at every price level? This is an change in demand. Not to be confused with quantity demanded, a change in demand shifts the demand curve in or out.",
+        "questions": [
+            {
+                "prompt": "If a quantity demanded of a product is 200 at $10, what will happen to quantity demanded at $10 if we increase demand? ",
+                "choices": [
+                    "Increase",
+                    "Decrease",
+                    "Stay the same"
+                ],
+                "correctAnswer": "Increase",
+                "explanation": "Yes! A increase in demand will cause quantity demanded to increase, even though price did not change. This is because we shifted the demand curve out. Five things may change demand: consumer incomes, consumer preference/taste, price of related goods, number of consumers in the market, and expectations of buyers."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Consumer Incomes",
+        "content": "As people become more wealthy, their demand increases. All else equal, wealthier people have the ability to buy more things. If Jim receives a raise he will be able buy more things. This means his demand increases. This works the same way across a population. So if many people earn more income, general demand will rise.",
+        "questions": [
+            {
+                "prompt": "If a company slashes paychecks for its 100-strong workforce, what will happen to demand in that area?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will decrease",
+                "explanation": "Correct! Demand will fall with a decline in consumer income."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Consumer Preference and Taste",
+        "content": "Demand could increase or decrease depending on preferences of consumer population. Fashion and trends. New information/studies. Published reviews (consumer reports, for example). Adam notices how popular Vineyard Vines is at UVa, and really starts to like the clothing. His demand for the product increases, and he has a strong desire to buy the product just like many of his fellow students. Works the same across a population. As more people start liking that brand of clothing, the demand will rise.",
+        "questions": [
+            {
+                "prompt": "A news story is ran that states eating cantaloupe helps fight cancer. How does demand cantaloupe change?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will increase",
+                "explanation": "Correct! This story will lead to an increase in consumer preference for cantaloupe."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Price of related goods: Complements",
+        "content": "The price of related goods may also shift demand for a good. Complements are goods that go together, like bread and butter. If the price of a good’s complement falls, demand for that good rises, and vice versa",
+        "questions": [
+            {
+                "prompt": "S’mores are the favorite snack in our town. If the price of marshmallows falls, what happens to the demand of chocolate?",
+                "choices": [
+                    "Demand for chocolate will increase",
+                    "Demand for chocolate will decrease",
+                    "Demand for chocolate will stay the same"
+                ],
+                "correctAnswer": "Demand for chocolate will increase",
+                "explanation": "Correct! Demand for chocolate increases because the price for its complement, marshmallows, fell."
+            },
+            {
+                "prompt": " What happens to the demand for marshmallows?",
+                "choices": [
+                    "Demand for marshmallows will increase",
+                    "Demand for marshmallows will decrease",
+                    "Demand for marshmallows will stay the same"
+                ],
+                "correctAnswer": "Demand for marshmallows will stay the same",
+                "explanation": "Correct! The demand for marshmallows remains constant. The quantity demanded for marshmallows increases with the fall in price. Recall the difference between demand and quantity demanded."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Price of related goods: Substitutes",
+        "content": "Substitutes are goods that replace each other, like Coke and Pepsi. If the price of a good’s substitute rises, demand for that good rises, and vice versa."
+    },
+    {
+        "slideTitle": "Number of consumers in market",
+        "content": "Demand increases as number of consumers increases. Consumers are in competition for the same product. If the number of consumers in a neighborhood increase, the demand for products in the neighborhood supermarket will increase. Works this way across a population. As the number of consumers increases, general demand will rise.",
+        "questions": [
+            {
+                "prompt": "A neighborhood grocery store sells a limited number of organic watermelon, a local speciality. Several new houses are built nearby that bring in new families, doubling the number of customers that frequent the grocery store. What happens to the demand of these watermelon?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will increase",
+                "explanation": "Correct! Demand increases with an increased number of consumers in this market."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Expectations of Buyers",
+        "content": "Consumers' expectations of future prices can also shift demand. If consumers expect the price of a good to fall, demand for that good will fall, and vice versa, all else equal. Apple releases a new iPod every year, with seemingly the exact same features as the previous iPod model. Knowing that the price of the current iPod will decrease in a few months with the release of a new model, consumers decide that their current iPod is alright for now and wait to buy a new iPod until a later time.",
+        "questions": [
+            {
+                "prompt": "Nike has a new line of running shoes, N1’s that are very hot on the market right now. There is talk of an even newer line, N2’s being released in the coming months. Consumers think that the release of N2’s will lead to sale prices on the N1’s. What happens to the demand of Nike N1’s?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will decrease",
+                "explanation": "Correct! Demand for N1’s will decrease, because consumers expect their price to fall soon."
+            }
+        ]
+    },
+    {
+        "slideTitle": "Review of Demand",
+        "content": "Let's practice some of the key concepts we just learned about demand through real-world application!"
+    },
+    {
+        "slideTitle": "Review of Demand",
+        "content": "GE, a large energy company headquartered in Fairfield, CT, has a rather successful year. Due to their lucrative earnings at the end of the year, GE is able to give large holiday bonuses to their employees.",
+        "questions": [
+            {
+                "prompt": "What happens to demand in CT during the holiday season?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will increase",
+                "explanation": "Correct! Demand will increase, because the income of the consumers in this population has increased!"
+            },
+            {
+                "prompt": "Which determinant of demand does this situation display?",
+                "choices": [
+                    "Expectations of buyers",
+                    "Consumer preference/taste",
+                    "Price of related goods",
+                    "Number of consumers in market",
+                    "Consumer income"
+                ],
+                "correctAnswer": "Consumer income",
+                "explanation": "Correct! This problem deals with the determinant of demand: Consumer Income"
+            }
+        ]
+    },
+    {
+        "slideTitle": "Review of Demand",
+        "content": "Consumer Reports, a respected product testing organization, releases their annual Auto Buying Guide for 2013. Consumer Reports notes that Toyota created a very strong line of cars this year, and ranks them as the top auto brand this year.",
+        "questions": [
+            {
+                "prompt": "What happens to the demand for cars made by Toyota?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will increase",
+                "explanation": "Correct! Demand will increase, because the released auto buying guide will influence consumer preference in favor of Toyota cars"
+            },
+            {
+                "prompt": "Which determinant of demand does this situation display?",
+                "choices": [
+                    "Expectations of buyers",
+                    "Consumer preference/taste",
+                    "Price of related goods",
+                    "Number of consumers in market",
+                    "Consumer income"
+                ],
+                "correctAnswer": "Consumer preference/taste",
+                "explanation": "Correct! This problem deals with the determinant of demand: Consumer Preference/Taste"
+            }
+        ]
+    },
+    {
+        "slideTitle": "Review of Demand",
+        "content": "Coke has a special holiday sale on their classic cola, selling all sizes of Coke at half price for the entire month of December.",
+        "questions": [
+            {
+                "prompt": "What happens to the demand for Pepsi Cola during December?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will decrease",
+                "explanation": "Correct! Demand will decrease for Pepsi, because the price of it's complement, Coke, is much cheaper."
+            },
+            {
+                "prompt": "Which determinant of demand does this situation display?",
+                "choices": [
+                    "Expectations of buyers",
+                    "Consumer preference/taste",
+                    "Price of related goods",
+                    "Number of consumers in market",
+                    "Consumer income"
+                ],
+                "correctAnswer": "Price of related goods",
+                "explanation": "Correct! This problem deals with the determinant of demand: Price of Related Goods"
+            }
+        ]
+    },
+    {
+        "slideTitle": "Review of Demand",
+        "content": "A local auto shop provides services to the Charlottesville area, steadily attracting large numbers of locals into their shop for auto services. Increased housing costs in Charlottesville cause a significant number of residents to relocate, causing the Charlottesville population to decrease.",
+        "questions": [
+            {
+                "prompt": "What happens to the demand for auto services at this shop?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will decrease",
+                "explanation": "Correct! Demand will decrease for auto services, because there are fewer consumers in the Charlottesville area that need this service."
+            },
+            {
+                "prompt": "Which determinant of demand does this situation display?",
+                "choices": [
+                    "Expectations of buyers",
+                    "Consumer preference/taste",
+                    "Price of related goods",
+                    "Number of consumers in market",
+                    "Consumer income"
+                ],
+                "correctAnswer": "Number of consumers in market",
+                "explanation": "Correct! This problem deals with the determinant of demand: Number of Consumers in Market"
+            }
+        ]
+    },
+    {
+        "slideTitle": "Review of Demand",
+        "content": "LG is having a week-long promotion for their new LED Televisions, selling them at 25% off to attract buyers. The TVs have been on sale for five days now, and the end of the sale is coming up very soon.",
+        "questions": [
+            {
+                "prompt": "What happens to the demand for these TVs in the next two days?",
+                "choices": [
+                    "Demand will increase",
+                    "Demand will decrease",
+                    "Demand will remain the same"
+                ],
+                "correctAnswer": "Demand will increase",
+                "explanation": "Correct! Demand will increase for LG TVs, because the buyers are expecting the price of these TVs to increase very soon."
+            },
+            {
+                "prompt": "Which determinant of demand does this situation display?",
+                "choices": [
+                    "Expectations of buyers",
+                    "Consumer preference/taste",
+                    "Price of related goods",
+                    "Number of consumers in market",
+                    "Consumer income"
+                ],
+                "correctAnswer": "Expectations of buyers",
+                "explanation": "Correct! This problem deals with the determinant of demand: Expectations of Buyers"
+            }
+        ]
+    },
+    {
+    "slideTitle": "Congratulations!",
+    "content": "You've completed our beta Economics 101 course! Please come back later for more courses."
+    }
+]
